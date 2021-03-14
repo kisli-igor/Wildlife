@@ -1,0 +1,399 @@
+body {
+  width: 1440px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+div.wrapper {
+  background-image: url(img/fox.png);
+  height: 780px;
+  color: #f7f7f7;
+  margin-bottom: 0;
+}
+
+header {
+  position: relative;
+  display: flex;
+  padding-top: 19px;
+  width: 1200px;
+  margin: auto;
+  height: 80px;
+  color: #f7f7f7;
+  font-weight: 300;
+  font-size: 23px;
+}
+
+header nav {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul {
+  font-size: 22px;
+  padding-top: 0px;
+  margin-top: 18px;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 45px;
+  padding: 0 15px;
+}
+
+nav ul li :hover {
+  color: grey;
+  cursor: pointer;
+}
+
+nav ul li :active {
+  color: #333333;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.searcher {
+  position: relative;
+  top: -5px;
+  left: -13px;
+}
+
+.sign_in_button {
+  position: absolute;
+  top: 25px;
+  left: 1080px;
+  border: 3px #cd6326 solid;
+  border-radius: 5px;
+  color: white;
+  background: none;
+  width: 120px;
+  height: 50px;
+  font-size: 23px;
+}
+
+.sign_in_button:hover {
+  color: white;
+  cursor: pointer;
+  background: #cd6326;
+}
+
+.sign_in_button:active {
+  background-color: #8f5613;
+  border: #8f5613;
+  transform: scale(1);
+}
+
+.logo_cont {
+  height: 60px;
+}
+
+.logo_cont:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.logo_cont:active {
+  color: #333333;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+h1 {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 400;
+  vertical-align: top;
+  margin: 14px 9px;
+}
+
+.middle_cont_block {
+  background-color: #cccccc;
+  padding-top: 80px;
+  text-align: center;
+  height: 1288px;
+}
+
+article {
+  width: 1200px;
+  margin: auto;
+  margin-top: 112px;
+}
+
+h2 {
+  letter-spacing: 2px;
+  font-size: 48px;
+  font-weight: 400;
+  color: #cd6326;
+  margin-bottom: 58px;
+}
+
+.about_donation {
+  width: 275px;
+  height: 110px;
+  font-size: 19px;
+  line-height: 27px;
+  margin-bottom: 47px;
+}
+
+.donate {
+  border: 3px #cd6326 solid;
+  border-radius: 5px;
+  color: white;
+  background: #cd6326;
+  width: 160px;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.donate:hover {
+  color: white;
+  cursor: pointer;
+  background: #e39128;
+  border: #e39128;
+}
+
+.donate:active {
+  background-color: #8f5613;
+  border: #8f5613;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 50px;
+  letter-spacing: 0.3px;
+  margin-bottom: 30px;
+  color: #333333;
+  font-weight: 300;
+}
+
+.sub_article {
+  color: #666666;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.slider {
+  padding-top: 14px;
+}
+
+.figures {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+figure {
+  margin: 14px 5px;
+}
+
+figure img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  box-shadow: 0 0 30px #e39128;
+}
+
+figure img:active {
+  transform: scale(0.8);
+  cursor: pointer;
+}
+
+figure p {
+  position: relative;
+  top: 300px;
+  font-size: 22px;
+  font-weight: 300;
+  color: white;
+  z-index: 1;
+}
+
+figure figcaption {
+  position: relative;
+  top: -67px;
+  right: 1px;
+  font-size: 17px;
+  color: #f7f7f7;
+  letter-spacing: 0.4px;
+}
+
+.left_arrow {
+  background: url(img/left-arrow.png) center no-repeat;
+  width: 30px;
+  height: 70px;
+  border: none;
+  position: relative;
+  top: 229px;
+}
+
+.right_arrow {
+  background: url(img/right-arrow.png) center no-repeat;
+  width: 30px;
+  height: 70px;
+  border: none;
+  position: relative;
+  top: 229px;
+}
+
+.left_arrow:hover,
+.right_arrow:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.left_arrow:active,
+.right_arrow:active {
+  transform: scale(0.8);
+  cursor: pointer;
+}
+
+.email_block {
+  display: block;
+  margin-top: 210px;
+}
+
+.email_input {
+  font-size: 24px;
+  width: 536px;
+  margin: auto;
+  position: relative;
+  top: 24px;
+  right: -3px;
+  height: 56px;
+  background-color: #cccccc;
+  border: 1px solid #666666;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+.email_input::placeholder {
+  color: #666666;
+  font-size: 23px;
+  padding-left: 11px;
+}
+
+.email_button {
+  border: 3px #cd6326 solid;
+  border-radius: 5px;
+  color: white;
+  background: #cd6326;
+  width: 125px;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 300;
+  position: relative;
+  top: 24px;
+  right: 6px;
+  z-index: 0;
+}
+
+.email_button:hover {
+  color: white;
+  cursor: pointer;
+  background: #e39128;
+  border: #e39128;
+}
+
+.email_button:active {
+  background-color: #8f5613;
+  border: #8f5613;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 27px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  color: #333333;
+}
+
+footer {
+  background-image: url("img/footer.jpg");
+  width: 1200px;
+  padding: 0 120px 0 120px;
+  height: 360px;
+  background-color: #181617;
+  color: #f7f7f7;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.links {
+  color: #f7f7f7;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+div.links ul {
+  position: relative;
+  left: 27px;
+  top: 1px;
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  width: 600px;
+}
+
+div.links ul li:hover {
+  color: grey;
+  cursor: pointer;
+}
+div.links ul li:active {
+  color: #333333;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+div.links li {
+  padding: 47px;
+}
+
+address {
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+}
+address a:hover {
+  box-shadow: 0px 0px 15px orange;
+  border-radius: 100px;
+}
+address a:active {
+  transform: scale(0.9);
+}
+
+.facebook {
+  position: relative;
+  right: -60px;
+  top: 1px;
+}
+
+.insta {
+  position: relative;
+  right: -87px;
+  top: 1px;
+}
+
+.pinterest {
+  position: relative;
+  right: -113px;
+  top: 1px;
+}
+
+.telegram {
+  position: relative;
+  right: -140px;
+  top: 1px;
+}
